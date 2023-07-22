@@ -8,7 +8,7 @@ background-color: #272044;
   margin: 0 auto;
 }
 header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/orhei.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('../images/orhei.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
