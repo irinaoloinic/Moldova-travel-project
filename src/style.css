@@ -76,8 +76,8 @@ header h3{
     list-style: none;
     margin: 0;
     padding: 0;
-   
   }
+
   footer a {
     font-weight: 400px;
     font-size: 16px;
@@ -117,10 +117,11 @@ main p{
 }
 main h4{
 color: #272044;
-font-size: 16px;
+font-size: 24px;
 font-style: normal;
-font-weight: 400;
-line-height: normal;
+font-weight: 700;
+line-height: 1;
+margin: 0;
 }
 main h5{
 color:#272044;
@@ -128,6 +129,14 @@ font-size: 13px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin: 0;
+}
+main h6{
+color:#272044;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 1;
 }
 .container{
   max-width: 1200px;
@@ -175,9 +184,16 @@ align-items: center;
 gap: 10px;
 align-self: stretch;
 background-color: #462CB2;
-
-
+text-decoration: none;
 }
+.card-body{
+  padding: 24px 32px ;
+}
+.card-img{
+  max-width: 185px;
+  max-height:185px;
+}
+
  @media (max-width: 960px) {
   header{
     padding: 60px 0;
