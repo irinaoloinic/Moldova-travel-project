@@ -241,8 +241,7 @@ max-width: 380px;
     display: none;
     }
     .embeded{
-      max-width: 100%;
-      height: 300px;
+      aspect-ratio: 16 /9;
   }
  }  
  
